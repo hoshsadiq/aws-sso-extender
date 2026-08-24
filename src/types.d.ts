@@ -66,6 +66,7 @@ export interface ExtensionMessage {
 
 export interface ApiData {
   result: AppData[] | ProfileData[]
+  paginationToken?: string
 }
 
 export interface UserData {
@@ -76,6 +77,9 @@ export interface UserData {
     displayName: string,
     sessionLabelSso: string,
     sessionLabelIam: string,
+    bookmarkLabel: string,
+    bookmarkFolderEnabled: boolean,
+    bookmarkFolderLabel: string,
     colorDefault: string,
     colorFooter: boolean,
     colorHeader: boolean,

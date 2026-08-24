@@ -1,3 +1,12 @@
+## 1.9.9
+- 🔖 Export AWS accounts and roles to a bookmarks file that can be shared with other users; bookmarks do not require this extension to be installed.
+
+## 1.9.8
+- Fix profiles not loading in Firefox.
+
+## 1.9.7
+- Fix to support 100+ accounts (thank @nis17nagaid)
+
 ## 1.9.6
 - Fixes for multi-session support (thanks @shouze)
 - Fixes for user switching and save loops (thanks @hoshsadiq)
